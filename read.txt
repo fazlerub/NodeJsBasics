@@ -1,0 +1,9 @@
+Hey Today I have learned about The Concept of Streams in Node js .
+Basically streams are objects that let you read data from Source and write data to a destination in a continuous fashion .
+
+Each type of stream is an event emitter that throws several events at different times,
+like data , end , error and finish events.
+
+There is one more technique to do this is
+const rstream = fs.createReadStream("read.txt");
+ rstream.pipe(res) method.
